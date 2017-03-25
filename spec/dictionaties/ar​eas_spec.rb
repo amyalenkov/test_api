@@ -1,5 +1,5 @@
 require 'airborne'
-require_relative '../config/spec_helper'
+require 'spec_helper'
 
 
 describe 'areas' do
@@ -44,7 +44,8 @@ describe 'areas' do
     end
 
     it 'try to delete country' do
-      delete '/areas/countries/113'
+      country_id = @expected_countries.get_expected_countries_by_name('Россия')['id']
+      delete '/areas/countries/'+ country_id.to_s
       expect_status 405
     end
 
