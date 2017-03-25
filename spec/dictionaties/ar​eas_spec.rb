@@ -29,7 +29,6 @@ describe 'areas' do
     it 'try to get country by id' do
       country_id = @expected_countries.get_expected_countries_by_name('Россия')['id']
       get '/areas/countries/'+ country_id.to_s
-      puts body
       expect_status 405
     end
 
