@@ -13,6 +13,11 @@ describe 'employers' do
     it 'get all employers without params' do
       get '/employers'
       expect_status 200
+      expect_json_types(found: :int, page: :int, per_page: :int)
+      expect_json_types('items.*.logo_urls', '90': :string)
+      expect_json_types('items.*', vacancies_url: :string, open_vacancies: :int, url: :string,
+                        alternate_url: :string, id: :string, name: :string)
+
     end
 
     it 'get all employers with params: text, area' do
