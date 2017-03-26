@@ -37,8 +37,8 @@ class Area
 
   def get_area_id_by_name(county, city)
     area_id = get_expected_countries_by_name(county)['id']
-    rus = @areas.find { |areas| areas['id'] == area_id.to_s}
-    rus['areas'].find { |areas| areas['name'] == city.to_s}['id']
+    country = @areas.find { |areas| areas['id'] == area_id.to_s}
+    country['areas'].find { |areas| areas['name'] == city.to_s}['id']
   end
 
   private
