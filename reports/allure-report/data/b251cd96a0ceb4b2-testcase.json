@@ -1,0 +1,40 @@
+{
+  "uid" : "b251cd96a0ceb4b2",
+  "name" : "vacancies check vacancies endpoint get all vacancies without params",
+  "title" : "vacancies check vacancies endpoint get all vacancies without params",
+  "time" : {
+    "start" : 1490535055878,
+    "stop" : 1490535056059,
+    "duration" : 181
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "10006740"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "10006740"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

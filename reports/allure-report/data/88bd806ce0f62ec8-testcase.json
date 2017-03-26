@@ -1,0 +1,40 @@
+{
+  "uid" : "88bd806ce0f62ec8",
+  "name" : "areas check countries endpoint try to update new country",
+  "title" : "areas check countries endpoint try to update new country",
+  "time" : {
+    "start" : 1490535055056,
+    "stop" : 1490535055129,
+    "duration" : 73
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "10006740"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "10006740"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

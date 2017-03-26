@@ -1,0 +1,54 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "b970a21c7869d6d1",
+      "failure" : {
+        "message" : " expected: 405 got: 404 (compared using ==) ",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "782df8114bec90d0",
+        "name" : "areas check countries endpoint try to get country by id",
+        "title" : "areas check countries endpoint try to get country by id",
+        "time" : {
+          "start" : 1490539055800,
+          "stop" : 1490539055890,
+          "duration" : 90
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "ea5a672c8fbeec5c",
+        "name" : "areas check countries endpoint try to delete country",
+        "title" : "areas check countries endpoint try to delete country",
+        "time" : {
+          "start" : 1490539056070,
+          "stop" : 1490539056135,
+          "duration" : 65
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "816e53359d7c9b4b",
+      "failure" : {
+        "message" : "expected \"Опыт автоматизации тестирования от 3-х лет. Отличное знание методологий тестирования. Опыт работы с Selenium. Опыт тестирования REST сервисов. \" to match \"/Python|Ruby/\"",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "f1279351f531819",
+        "name" : "vacancies check vacancies endpoint get all vacancies with params: text(name, DESCRIPTION), area",
+        "title" : "vacancies check vacancies endpoint get all vacancies with params: text(name, DESCRIPTION), area",
+        "time" : {
+          "start" : 1490539057295,
+          "stop" : 1490539057433,
+          "duration" : 138
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  } ]
+}

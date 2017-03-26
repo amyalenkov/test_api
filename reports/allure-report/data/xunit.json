@@ -1,0 +1,268 @@
+{
+  "time" : {
+    "start" : 1490539054177,
+    "stop" : 1490539057433,
+    "duration" : 3256
+  },
+  "testSuites" : [ {
+    "uid" : "dc754f28a1367f7c",
+    "name" : "areas check countries endpoint",
+    "title" : "areas check countries endpoint",
+    "time" : {
+      "start" : 1490539055686,
+      "stop" : 1490539056135,
+      "duration" : 449
+    },
+    "statistic" : {
+      "total" : 5,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 2,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "efa403d2c57bc603",
+      "name" : "areas check countries endpoint get all available countries",
+      "title" : "areas check countries endpoint get all available countries",
+      "time" : {
+        "start" : 1490539055686,
+        "stop" : 1490539055800,
+        "duration" : 114
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "782df8114bec90d0",
+      "name" : "areas check countries endpoint try to get country by id",
+      "title" : "areas check countries endpoint try to get country by id",
+      "time" : {
+        "start" : 1490539055800,
+        "stop" : 1490539055890,
+        "duration" : 90
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "4b9aac970897cd30",
+      "name" : "areas check countries endpoint try to create new country",
+      "title" : "areas check countries endpoint try to create new country",
+      "time" : {
+        "start" : 1490539055891,
+        "stop" : 1490539055956,
+        "duration" : 65
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "6a04f4b1377f6b3e",
+      "name" : "areas check countries endpoint try to update new country",
+      "title" : "areas check countries endpoint try to update new country",
+      "time" : {
+        "start" : 1490539055957,
+        "stop" : 1490539056069,
+        "duration" : 112
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "ea5a672c8fbeec5c",
+      "name" : "areas check countries endpoint try to delete country",
+      "title" : "areas check countries endpoint try to delete country",
+      "time" : {
+        "start" : 1490539056070,
+        "stop" : 1490539056135,
+        "duration" : 65
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "uid" : "c4d2e9049e50e8b3",
+    "name" : "areas check areas endpoint",
+    "title" : "areas check areas endpoint",
+    "time" : {
+      "start" : 1490539054177,
+      "stop" : 1490539054609,
+      "duration" : 432
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "a2a9d557fcc7ec03",
+      "name" : "areas check areas endpoint get all available areas",
+      "title" : "areas check areas endpoint get all available areas",
+      "time" : {
+        "start" : 1490539054178,
+        "stop" : 1490539054609,
+        "duration" : 431
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "9c07802a747366ca",
+    "name" : "employers check employers endpoint",
+    "title" : "employers check employers endpoint",
+    "time" : {
+      "start" : 1490539056171,
+      "stop" : 1490539056914,
+      "duration" : 743
+    },
+    "statistic" : {
+      "total" : 5,
+      "passed" : 5,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "833f0456d6fff55b",
+      "name" : "employers check employers endpoint get all employers without params",
+      "title" : "employers check employers endpoint get all employers without params",
+      "time" : {
+        "start" : 1490539056171,
+        "stop" : 1490539056420,
+        "duration" : 249
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f9a8cc3b546b3591",
+      "name" : "employers check employers endpoint get all employers with params: text, area",
+      "title" : "employers check employers endpoint get all employers with params: text, area",
+      "time" : {
+        "start" : 1490539056421,
+        "stop" : 1490539056514,
+        "duration" : 93
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "3cd1ff47131f599c",
+      "name" : "employers check employers endpoint get all employers with params: text, type, area",
+      "title" : "employers check employers endpoint get all employers with params: text, type, area",
+      "time" : {
+        "start" : 1490539056515,
+        "stop" : 1490539056708,
+        "duration" : 193
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "8b3f2a816604626f",
+      "name" : "employers check employers endpoint get all employers with params: type, area, only_with_vacancies",
+      "title" : "employers check employers endpoint get all employers with params: type, area, only_with_vacancies",
+      "time" : {
+        "start" : 1490539056709,
+        "stop" : 1490539056836,
+        "duration" : 127
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "5a748edf6d41d6ca",
+      "name" : "employers check employers endpoint get all employers with incorrect value for param area",
+      "title" : "employers check employers endpoint get all employers with incorrect value for param area",
+      "time" : {
+        "start" : 1490539056837,
+        "stop" : 1490539056914,
+        "duration" : 77
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "d85a86bce653fcf0",
+    "name" : "areas check areas by id endpoint",
+    "title" : "areas check areas by id endpoint",
+    "time" : {
+      "start" : 1490539054609,
+      "stop" : 1490539055685,
+      "duration" : 1076
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "40e9dd8d9c4b1efe",
+      "name" : "areas check areas by id endpoint get all available areas by id",
+      "title" : "areas check areas by id endpoint get all available areas by id",
+      "time" : {
+        "start" : 1490539054609,
+        "stop" : 1490539055685,
+        "duration" : 1076
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "453f639a338265b7",
+    "name" : "vacancies check vacancies endpoint",
+    "title" : "vacancies check vacancies endpoint",
+    "time" : {
+      "start" : 1490539056955,
+      "stop" : 1490539057433,
+      "duration" : 478
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "8a3684c52ab64417",
+      "name" : "vacancies check vacancies endpoint get all vacancies without params",
+      "title" : "vacancies check vacancies endpoint get all vacancies without params",
+      "time" : {
+        "start" : 1490539056956,
+        "stop" : 1490539057153,
+        "duration" : 197
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "7e64438de14e6b2",
+      "name" : "vacancies check vacancies endpoint get all vacancies with params: text(name, company_name), area, vacancy_search_fields(default)",
+      "title" : "vacancies check vacancies endpoint get all vacancies with params: text(name, company_name), area, vacancy_search_fields(default)",
+      "time" : {
+        "start" : 1490539057154,
+        "stop" : 1490539057294,
+        "duration" : 140
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f1279351f531819",
+      "name" : "vacancies check vacancies endpoint get all vacancies with params: text(name, DESCRIPTION), area",
+      "title" : "vacancies check vacancies endpoint get all vacancies with params: text(name, DESCRIPTION), area",
+      "time" : {
+        "start" : 1490539057295,
+        "stop" : 1490539057433,
+        "duration" : 138
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  } ]
+}

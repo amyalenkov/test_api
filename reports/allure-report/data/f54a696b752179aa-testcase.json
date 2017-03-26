@@ -1,0 +1,70 @@
+{
+  "uid" : "f54a696b752179aa",
+  "name" : "vacancies check vacancies endpoint get all vacancies with params: text(name, company_name), area, vacancy_search_fields(default)",
+  "title" : "vacancies check vacancies endpoint get all vacancies with params: text(name, company_name), area, vacancy_search_fields(default)",
+  "time" : {
+    "start" : 1490539057154,
+    "stop" : 1490539057294,
+    "duration" : 140
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "GET /vacancies params: {:text=>\"NAME:\\\"QA Automation Engineer\\\" and COMPANY_NAME:Новые Облачные Технологии\", :area=>\"2\"}",
+    "title" : "GET /vacancies params: {:text=>\"NAME:\\\"QA Automation Engineer\\\" and COMPANY_NAME:Новые Облачные Технологии\", :area=>\"2\"}",
+    "time" : {
+      "start" : 1490539057155,
+      "stop" : 1490539057293,
+      "duration" : 138
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "check status and body",
+    "title" : "check status and body",
+    "time" : {
+      "start" : 1490539057293,
+      "stop" : 1490539057294,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "14635220"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "14635220"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

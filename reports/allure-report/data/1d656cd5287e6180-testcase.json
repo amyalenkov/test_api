@@ -1,0 +1,70 @@
+{
+  "uid" : "1d656cd5287e6180",
+  "name" : "employers check employers endpoint get all employers with params: text, area",
+  "title" : "employers check employers endpoint get all employers with params: text, area",
+  "time" : {
+    "start" : 1490538241221,
+    "stop" : 1490538241313,
+    "duration" : 92
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "GET /employers params{:text=>\"Новые Облачные Технологии\", :area=>\"113\"}",
+    "title" : "GET /employers params{:text=>\"Новые Облачные Технологии\", :area=>\"113\"}",
+    "time" : {
+      "start" : 1490538241221,
+      "stop" : 1490538241310,
+      "duration" : 89
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "check status and body",
+    "title" : "check status and body",
+    "time" : {
+      "start" : 1490538241310,
+      "stop" : 1490538241313,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "10809560"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "10809560"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

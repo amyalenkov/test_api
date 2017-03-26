@@ -1,0 +1,70 @@
+{
+  "uid" : "85e7db02a2e9e8f9",
+  "name" : "areas check areas endpoint get all available areas",
+  "title" : "areas check areas endpoint get all available areas",
+  "time" : {
+    "start" : 1490537135517,
+    "stop" : 1490537135940,
+    "duration" : 423
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "/areas",
+    "title" : "/areas",
+    "time" : {
+      "start" : 1490537135517,
+      "stop" : 1490537135748,
+      "duration" : 231
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "check status and body",
+    "title" : "check status and body",
+    "time" : {
+      "start" : 1490537135748,
+      "stop" : 1490537135940,
+      "duration" : 192
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "5812440"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "5812440"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

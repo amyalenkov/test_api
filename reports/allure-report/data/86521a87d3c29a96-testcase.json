@@ -1,0 +1,70 @@
+{
+  "uid" : "86521a87d3c29a96",
+  "name" : "areas check countries endpoint try to create new country",
+  "title" : "areas check countries endpoint try to create new country",
+  "time" : {
+    "start" : 1490539055891,
+    "stop" : 1490539055956,
+    "duration" : 65
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "POST /areas/countries",
+    "title" : "POST /areas/countries",
+    "time" : {
+      "start" : 1490539055891,
+      "stop" : 1490539055956,
+      "duration" : 65
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "check status",
+    "title" : "check status",
+    "time" : {
+      "start" : 1490539055956,
+      "stop" : 1490539055956,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "14635220"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "14635220"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

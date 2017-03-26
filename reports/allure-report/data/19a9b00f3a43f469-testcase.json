@@ -1,0 +1,40 @@
+{
+  "uid" : "19a9b00f3a43f469",
+  "name" : "Reporting passes",
+  "title" : "Reporting passes",
+  "time" : {
+    "start" : 1436384384403,
+    "stop" : 1436384389031,
+    "duration" : 4628
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "70280781650920"
+  }, {
+    "name" : "host",
+    "value" : "asdf"
+  }, {
+    "name" : "thread",
+    "value" : "70280781650920"
+  }, {
+    "name" : "host",
+    "value" : "asdf"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

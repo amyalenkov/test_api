@@ -1,0 +1,70 @@
+{
+  "uid" : "a8fa145006ab8c4",
+  "name" : "areas check countries endpoint get all available countries",
+  "title" : "areas check countries endpoint get all available countries",
+  "time" : {
+    "start" : 1490538934203,
+    "stop" : 1490538934309,
+    "duration" : 106
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "GET /areas/countries",
+    "title" : "GET /areas/countries",
+    "time" : {
+      "start" : 1490538934203,
+      "stop" : 1490538934287,
+      "duration" : 84
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "check status and body",
+    "title" : "check status and body",
+    "time" : {
+      "start" : 1490538934287,
+      "stop" : 1490538934308,
+      "duration" : 21
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "3657960"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "3657960"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

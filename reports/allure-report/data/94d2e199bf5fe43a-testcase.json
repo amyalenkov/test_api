@@ -1,0 +1,40 @@
+{
+  "uid" : "94d2e199bf5fe43a",
+  "name" : "areas check countries endpoint get all available countries",
+  "title" : "areas check countries endpoint get all available countries",
+  "time" : {
+    "start" : 1490535054683,
+    "stop" : 1490535054791,
+    "duration" : 108
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "10006740"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "10006740"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

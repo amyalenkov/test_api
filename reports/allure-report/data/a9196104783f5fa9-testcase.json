@@ -1,0 +1,70 @@
+{
+  "uid" : "a9196104783f5fa9",
+  "name" : "vacancies check vacancies endpoint get all vacancies without params",
+  "title" : "vacancies check vacancies endpoint get all vacancies without params",
+  "time" : {
+    "start" : 1490538940443,
+    "stop" : 1490538940666,
+    "duration" : 223
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "GET /vacancies",
+    "title" : "GET /vacancies",
+    "time" : {
+      "start" : 1490538940443,
+      "stop" : 1490538940661,
+      "duration" : 218
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "check status and body",
+    "title" : "check status and body",
+    "time" : {
+      "start" : 1490538940661,
+      "stop" : 1490538940666,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "3657960"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "3657960"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

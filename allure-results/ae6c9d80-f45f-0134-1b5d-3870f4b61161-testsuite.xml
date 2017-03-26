@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1490539054177" stop="1490539054609">
+  <name>areas check areas endpoint</name>
+  <title>areas check areas endpoint</title>
+  <test-cases>
+    <test-case start="1490539054178" stop="1490539054609" status="passed">
+      <name>areas check areas endpoint get all available areas</name>
+      <title>areas check areas endpoint get all available areas</title>
+      <steps>
+        <step start="1490539054178" stop="1490539054435" status="passed">
+          <name>GET /areas</name>
+          <title>GET /areas</title>
+          <attachments/>
+        </step>
+        <step start="1490539054435" stop="1490539054609" status="passed">
+          <name>check status and body</name>
+          <title>check status and body</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="thread" value="14635220"/>
+        <label name="host" value="amyalenkov"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="thread" value="14635220"/>
+    <label name="host" value="amyalenkov"/>
+  </labels>
+</ns2:test-suite>

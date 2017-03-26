@@ -1,0 +1,40 @@
+{
+  "uid" : "6aaaf16bf9bd8631",
+  "name" : "employers check employers endpoint get all employers with params: text, area",
+  "title" : "employers check employers endpoint get all employers with params: text, area",
+  "time" : {
+    "start" : 1490535055343,
+    "stop" : 1490535055433,
+    "duration" : 90
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "10006740"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "10006740"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

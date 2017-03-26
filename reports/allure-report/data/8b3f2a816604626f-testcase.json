@@ -1,0 +1,70 @@
+{
+  "uid" : "8b3f2a816604626f",
+  "name" : "employers check employers endpoint get all employers with params: type, area, only_with_vacancies",
+  "title" : "employers check employers endpoint get all employers with params: type, area, only_with_vacancies",
+  "time" : {
+    "start" : 1490539056709,
+    "stop" : 1490539056836,
+    "duration" : 127
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "GET /employers params{:type=>\"private_recruiter\", :only_with_vacancies=>true, :area=>\"113\"}",
+    "title" : "GET /employers params{:type=>\"private_recruiter\", :only_with_vacancies=>true, :area=>\"113\"}",
+    "time" : {
+      "start" : 1490539056709,
+      "stop" : 1490539056831,
+      "duration" : 122
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "check status and body",
+    "title" : "check status and body",
+    "time" : {
+      "start" : 1490539056831,
+      "stop" : 1490539056836,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "14635220"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "14635220"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

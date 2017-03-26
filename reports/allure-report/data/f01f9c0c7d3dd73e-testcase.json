@@ -1,0 +1,40 @@
+{
+  "uid" : "f01f9c0c7d3dd73e",
+  "name" : "employers check employers endpoint get all employers without params",
+  "title" : "employers check employers endpoint get all employers without params",
+  "time" : {
+    "start" : 1490535055229,
+    "stop" : 1490535055343,
+    "duration" : 114
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "10006740"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "10006740"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

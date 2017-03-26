@@ -1,0 +1,40 @@
+{
+  "uid" : "abb1167c5dc5ca2",
+  "name" : "areas check countries endpoint try to create new country",
+  "title" : "areas check countries endpoint try to create new country",
+  "time" : {
+    "start" : 1490537136499,
+    "stop" : 1490537136675,
+    "duration" : 176
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "5812440"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "5812440"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

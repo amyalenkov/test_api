@@ -1,0 +1,49 @@
+{
+  "uid" : "3820fc7d895ebcc1",
+  "name" : "Reporting fails",
+  "title" : "Reporting fails",
+  "time" : {
+    "start" : 1436384389058,
+    "stop" : 1436384393177,
+    "duration" : 4119
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "\nexpected: false\n     got: true\n\n(compared using eql?)\n",
+    "stackTrace" : "/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-support-3.3.0/lib/rspec/support.rb:86:in `block in <module:Support>'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-support-3.3.0/lib/rspec/support.rb:93:in `call'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-support-3.3.0/lib/rspec/support.rb:93:in `notify_failure'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-expectations-3.3.0/lib/rspec/expectations/fail_with.rb:27:in `fail_with'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-expectations-3.3.0/lib/rspec/expectations/handler.rb:38:in `handle_failure'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-expectations-3.3.0/lib/rspec/expectations/handler.rb:50:in `block in handle_matcher'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-expectations-3.3.0/lib/rspec/expectations/handler.rb:27:in `with_matcher'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-expectations-3.3.0/lib/rspec/expectations/handler.rb:48:in `handle_matcher'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-expectations-3.3.0/lib/rspec/expectations/expectation_target.rb:54:in `to'\r\n/Users/tourdedave/Dropbox/_dev/elemental-selenium/lib/tips/59-html-reporting/example/reporting_spec.rb:36:in `block (2 levels) in <top (required)>'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/example.rb:206:in `instance_exec'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/example.rb:206:in `block in run'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/example.rb:430:in `block in with_around_and_singleton_context_hooks'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/example.rb:388:in `block in with_around_example_hooks'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/hooks.rb:478:in `block in run'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/hooks.rb:616:in `run_around_example_hooks_for'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/hooks.rb:478:in `run'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/allure-rspec-0.7.1/lib/allure-rspec/hooks.rb:33:in `run'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/example.rb:388:in `with_around_example_hooks'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/example.rb:430:in `with_around_and_singleton_context_hooks'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/example.rb:203:in `run'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/example_group.rb:559:in `block in run_examples'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/example_group.rb:555:in `map'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/example_group.rb:555:in `run_examples'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/example_group.rb:521:in `run'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/runner.rb:115:in `block (3 levels) in run_specs'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/runner.rb:115:in `map'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/runner.rb:115:in `block (2 levels) in run_specs'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/configuration.rb:1627:in `with_suite_hooks'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/runner.rb:114:in `block in run_specs'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/reporter.rb:77:in `report'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/runner.rb:113:in `run_specs'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/runner.rb:89:in `run'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/runner.rb:73:in `run'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/lib/rspec/core/runner.rb:41:in `invoke'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.1/exe/rspec:4:in `<top (required)>'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/bin/rspec:23:in `load'\r\n/Users/tourdedave/.rbenv/versions/2.1.5/bin/rspec:23:in `<main>'"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "screenshot",
+    "source" : "5e68ae1617b9b4621855d3a218030316b6c8d6c221fc813851d517f0512ccf89-attachment.png",
+    "type" : "image/png",
+    "size" : 92968,
+    "uid" : "d758c1dfc3ab3926"
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "70280781650920"
+  }, {
+    "name" : "host",
+    "value" : "asdf"
+  }, {
+    "name" : "thread",
+    "value" : "70280781650920"
+  }, {
+    "name" : "host",
+    "value" : "asdf"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

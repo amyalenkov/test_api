@@ -1,0 +1,40 @@
+{
+  "uid" : "5e0a9849f381f010",
+  "name" : "areas check areas by id endpoint get all available areas by id",
+  "title" : "areas check areas by id endpoint get all available areas by id",
+  "time" : {
+    "start" : 1490537135942,
+    "stop" : 1490537136292,
+    "duration" : 350
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "5812440"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "5812440"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

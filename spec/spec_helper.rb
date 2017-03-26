@@ -1,5 +1,6 @@
 require 'rspec/json_expectations'
 require 'httplog'
+require 'allure-rspec'
 
 require_relative '../helper/test_environment'
 require_relative '../helper/entities/area'
@@ -12,6 +13,16 @@ env = TestEnvironment.get_test_environment
 
 Airborne.configure do |config|
   config.base_url = env['host']
+end
+
+RSpec.configure do |c|
+  c.include AllureRSpec::Adaptor
+end
+
+AllureRSpec.configure do |c|
+  c.output_dir = '/allure-results'
+  c.clean_dir = true
+  c.logging_level = Logger::DEBUG
 end
 
 HttpLog.configure do |config|

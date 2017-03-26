@@ -1,0 +1,40 @@
+{
+  "uid" : "18581afd4c2f3de3",
+  "name" : "vacancies check vacancies endpoint get all vacancies with params: text(name, company_name), area, vacancy_search_fields(default)",
+  "title" : "vacancies check vacancies endpoint get all vacancies with params: text(name, company_name), area, vacancy_search_fields(default)",
+  "time" : {
+    "start" : 1490535056060,
+    "stop" : 1490535056210,
+    "duration" : 150
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "10006740"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "10006740"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,43 @@
+{
+  "uid" : "c38634990c125d03",
+  "name" : "vacancies check vacancies endpoint get all vacancies with params: text(name, company_name), area, vacancy_search_fields(default)",
+  "title" : "vacancies check vacancies endpoint get all vacancies with params: text(name, company_name), area, vacancy_search_fields(default)",
+  "time" : {
+    "start" : 1490538940666,
+    "stop" : 1490538940666,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "no implicit conversion of Hash into String",
+    "stackTrace" : "/home/amyalenkov/RubymineProjects/test_api/spec/vacancies/vacancies_search_spec.rb:31:in `+'\r\n/home/amyalenkov/RubymineProjects/test_api/spec/vacancies/vacancies_search_spec.rb:31:in `block (3 levels) in <top (required)>'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:254:in `instance_exec'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:254:in `block in run'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:496:in `block in with_around_and_singleton_context_hooks'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:453:in `block in with_around_example_hooks'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/hooks.rb:464:in `block in run'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/hooks.rb:602:in `run_around_example_hooks_for'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/hooks.rb:464:in `run'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3@global/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:453:in `with_around_example_hooks'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:496:in `with_around_and_singleton_context_hooks'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/example.rb:251:in `run'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/example_group.rb:627:in `block in run_examples'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/example_group.rb:623:in `map'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/example_group.rb:623:in `run_examples'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/example_group.rb:589:in `run'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/example_group.rb:590:in `block in run'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/example_group.rb:590:in `map'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/example_group.rb:590:in `run'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:113:in `block (3 levels) in run_specs'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:113:in `map'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:113:in `block (2 levels) in run_specs'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1835:in `with_suite_hooks'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:112:in `block in run_specs'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/reporter.rb:77:in `report'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:111:in `run_specs'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:87:in `run'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:71:in `run'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:45:in `invoke'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/gems/rspec-core-3.5.4/exe/rspec:4:in `<top (required)>'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/bin/rspec:22:in `load'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/bin/rspec:22:in `<main>'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/bin/ruby_executable_hooks:15:in `eval'\r\n/home/amyalenkov/.rvm/gems/ruby-2.3.3/bin/ruby_executable_hooks:15:in `<main>'"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "3657960"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "thread",
+    "value" : "3657960"
+  }, {
+    "name" : "host",
+    "value" : "amyalenkov"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}
