@@ -10,9 +10,19 @@
 
 /spec - папка для тестов
 
-Для запуска тестов и формирования html-отчета необходимо выпонить команду
+Для запуска тестов и формирования rspec html-отчета необходимо выпонить команду
 
 
 ```html
-TEST_ENV=hh_ru.yml rspec spec --format html --out rspec_results.html
+TEST_ENV=hh_ru.yml rspec spec --format html --out reports/rspec-report/rspec_results.html
+
 ```
+TEST_ENV - переменная для указания файла с параметрами запуска тестов. Пример файла:
+
+```html
+host: 'https://api.hh.ru'
+```
+
+Данные для allure отчета находятся в папке /allure-results. 
+Пример html allure отчета - в папке reports/allure-report. 
+Пример html rspec отчета - в папке reports/rspec-report. 
