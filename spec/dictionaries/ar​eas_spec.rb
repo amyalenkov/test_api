@@ -12,7 +12,6 @@ describe 'areas' do
     it 'get all available areas' do
       get Area.get_areas_url
       expect_status 200
-      puts body
       expect(body).to include_json(@areas.get_expected_areas)
     end
   end

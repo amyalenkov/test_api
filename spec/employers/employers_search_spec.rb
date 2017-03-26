@@ -24,7 +24,6 @@ describe 'employers' do
       get Employer.get_employers_url, {params: {text: company_name,
                                   area: area_id}}
       expect_status 200
-      puts body
       expect_json('items.0.name', company_name)
       expect_json('found', expected_count_for_employers)
       expect_json_types(Employer.get_expected_types_for_employers)
